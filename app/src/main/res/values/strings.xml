@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ApplicationForSinkometrControl</string>
+
+    <string name="update">Update data</string>
+
+    <string-array name="data_variability">
+        <item>Temperature</item>
+        <item>Pressure</item>
+        <item>Humidity</item>
+        <item>Hydrocarbons</item>
+    </string-array>
+</resources>

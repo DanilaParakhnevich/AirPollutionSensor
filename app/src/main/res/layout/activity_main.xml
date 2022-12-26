@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="wrap_content"
+        android:layout_height="376dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="40dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:entries="@array/data_variability"
+        android:layout_width="242dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:text="@string/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:onClick="onClick"/>
+
+</LinearLayout>
